@@ -1,0 +1,746 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap');
+@font-face {
+    font-family: 'JapanFont';
+    src: url('/font/kashimarusbycop.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --header-bg: rgba(26, 26, 26, 0.9);
+    --advanteges-bg: #242A36;
+    --neitral-style: #E0E0E0;
+    --specifity: #8C1D1D;
+    --speed-inovate: #0A1F3A;
+}
+
+/* Общие стили */
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+header, main, footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ctor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Akira Expanded', 'JapanFont', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+video {
+    position: static;
+    height: 100%;
+    width: 100%;
+}
+
+/* Header */
+header {
+    max-width: 1800px;
+    height: 75px;
+    background-color: var(--header-bg);
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 0.5px rgba(255, 255, 255, 0.85) solid;
+    border-radius: 16px;
+    margin-top: 12px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #c0392b;
+}
+
+.car_img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 36px;
+}
+
+.car_img h1 {
+    font-size: 24px;
+    margin-left: 20px;
+    color: white;
+}
+
+.head_nav {
+    margin-left: 64px;
+}
+
+.head-links {
+    font-size: 20px;
+    align-items: center;
+}
+
+.head_link {
+    display: flex;
+    width: 500px;
+    margin-left: 42px;
+    justify-content: space-between;
+}
+
+/* Главный баннер */
+.video-text {
+    font-size: 50px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 40%;
+    padding-left: 32px;
+    color: white;
+}
+
+.video-text h1 {
+    margin: 0 0 20px 0;
+}
+
+.video_text_p {
+    font-size: 24px;
+}
+
+.video_text_p p {
+    margin: 12px 0;
+}
+
+/* Преимущества - полная сохраненная секция */
+.advantages {
+    width: 100%;
+    height: auto;
+    background-color: var(--advanteges-bg);
+    border-top: 2px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantage_title h1 {
+    font-size: 52px;
+    margin-top: 42px;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+.advantage_video {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.advantage_video video {
+    opacity: 0.2;
+    width: 33.3%;
+    position: relative;
+    z-index: 1;
+    margin-top: 32px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1);
+    transition: 0.7s;
+}
+
+.advantage_video video:hover {
+    opacity: 1;
+    z-index: 3;
+    border-radius: 12px;
+    transform: scale(1.25);
+    transition: 0.7s ease-in-out;
+}
+
+.v1 {
+    transform-origin: left;
+}
+
+.v2 {
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-bottom: none;
+    border-top: none;
+}
+
+.v3 {
+    transform-origin: right;
+}
+
+.description_video {
+    width: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    height: 475px;
+    margin-left: 24px;
+}
+
+.descAdvant {
+    display: none;
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    pointer-events: none;
+    position: relative;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    opacity: 0;
+    transition: opacity 1s ease;
+    border: 2px solid snow;
+}
+
+.act {
+    display: flex;
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 3;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.advantage_text {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 32px;
+}
+
+#descAdvant2 {
+    left: 630px;
+    text-align: center;
+}
+
+#descAdvant3 {
+    left: 1250px;
+    text-align: end;
+}
+
+/* Каталог */
+.sort_card {
+    background-color: var(--advanteges-bg);
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
+}
+
+.add-update{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 64px;
+}
+
+/* aaaddd------------------------------------------------------------------------------------------------- */
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+    margin-bottom: 24px;
+    border-bottom: 2px white solid;
+}
+.car {
+    width: 585px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.car-header {
+    margin-bottom: 10px;
+}
+.car-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--speed-inovate);
+    display: flex;
+    justify-content: space-between;
+}
+.car-model {
+    color: #555;
+}
+.car-manufacturer {
+    font-size: 14px;
+    color: #666;
+    margin: 3px 0;
+}
+.car-price {
+    font-size: 22px;
+    color: var(--specifity);
+    text-align: right;
+    margin: 5px 0;
+}
+.car-availability {
+    display: inline-block;
+    padding: 3px 10px;
+    background-color: var(--specifity);
+    color: white;
+    border-radius: 12px;
+    font-size: 12px;
+}
+.car-specs {
+    display: flex;
+    gap: 8px;
+    margin: 10px 0;
+    flex-grow: 1;
+}
+.spec-item {
+    width: calc(50% - 4px);
+    padding: 6px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+}
+.spec-label {
+    font-size: 12px;
+    color: #888;
+}
+.spec-value {
+    font-size: 14px;
+    font-weight: 500;
+}
+.car-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 8px;
+    border-top: 1px solid var(--neitral-style);
+}
+.car-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: var(--specifity);
+    color: white;
+}
+@media (max-width: 450px) {
+    .car {
+        width: 100%;
+        height: auto;
+        min-height: 280px;
+    }
+}
+.compact-form-add {
+    padding: 12px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    margin: auto;
+}
+.compact-form {
+    padding: 12px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    margin: auto;
+    margin-bottom: 24px;
+    width: 100%;
+    max-width: 800px;
+}
+.add-card-form{
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.compact-form h3 {
+    margin: 0 0 12px 0;
+    font-size: 32px;
+    color: var(--speed-inovate);
+}
+.form-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+    justify-content: space-around;
+}
+.form-group.compact {
+    margin-bottom: 0;
+}
+.add{
+    flex: 1;
+    margin-bottom: 0;
+}
+.add select{
+    height: 24px;
+    width: 100%;
+}
+.form-group.compact label {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 2px;
+}
+.form-group.compact input {
+    font-size: 13px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+.compact-button {
+    width: 100%;
+    padding: 8px;
+    background: var(--specifity);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.compact-button:hover {
+    opacity: 0.9;
+}
+
+/* addd------------------------------------------------------------------------------------------------- */
+
+/* update------------------------------------------------------------------------------------------------- */
+
+/* update------------------------------------------------------------------------------------------------- */
+
+
+
+
+/*searce product*/
+.car-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: center;
+    margin-bottom: 24px;
+    border-bottom: 2px white solid;
+}
+
+@media (max-width: 450px) {
+    .car {
+        width: 100%;
+        height: auto;
+        min-height: 280px;
+    }
+}
+
+/*searce product*/
+
+/*searce model*/
+
+.form-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.form-group.compact label {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 2px;
+}
+
+.form-group.compact input {
+    font-size: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    height: 24px;
+}
+
+.compact-button {
+    width: 100%;
+    padding: 8px;
+    background: var(--specifity);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+/*searc model*/
+
+
+/*total result*/
+.car-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+}
+
+.sales-card {
+    width: 300px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-family: Arial, sans-serif;
+}
+
+.sales-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.sales-header {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.statistic-item {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #333;
+}
+
+.statistic-label {
+    font-weight: 500;
+    color: #777;
+}
+
+.sales-summary {
+    max-width: 900px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #28a745;
+    margin: auto;
+}
+
+/*total result*/
+.status {
+    background-color: var(--specifity);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    border-radius: 12px;
+    width: 150px;
+    height: 25px;
+}
+
+.adtl_info {
+    background-color: var(--speed-inovate);
+    color: white;
+    margin-right: 50px;
+}
+
+.adtl_info:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+/*full info*/
+.client-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.client-header h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #0d6efd;
+}
+
+.client-header p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.client-details {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.detail-row .label {
+    font-weight: bold;
+    min-width: 150px;
+    color: #777;
+}
+
+.car-info {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.car-info h4 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.spec-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.spec-row .label {
+    min-width: 160px;
+    font-weight: bold;
+    color: #555;
+}
+
+.technical-specs {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.technical-specs h5 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+}
+/*full info*/
+/* Футер */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 2rem 0 0 0;
+}
+
+.ctor.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 2rem;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 1.5rem;
+}
+
+.footer-section h3 {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.footer-info p {
+    margin: 0.5rem 0;
+    color: #ccc;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #e74c3c;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-links img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .head_link {
+        width: auto;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    
+    .advantage_video {
+        flex-direction: column;
+    }
+    
+    .advantage_video video {
+        width: 100%;
+    }
+    
+    .description_video {
+        position: relative;
+        flex-direction: column;
+        height: auto;
+        margin: 20px;
+    }
+    
+    #descAdvant2, #descAdvant3 {
+        left: auto;
+        text-align: left;
+    }
+}

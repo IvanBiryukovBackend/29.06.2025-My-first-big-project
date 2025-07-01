@@ -1,0 +1,2082 @@
+{
+  "Version": 1,
+  "Hash": "Vh93bolsYZYIKyR0FOF+Yq+QwHxUE5mEisa/wDA0gus=",
+  "Source": "AutoSalon",
+  "BasePath": "_content/AutoSalon",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AutoSalon\\wwwroot",
+      "Source": "AutoSalon",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\css\\materialize.min.css",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "css/materialize.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zelva7g88r",
+      "Integrity": "K0Q4p66sdMVi7UQfY1uPDTIAw5axCRZj5ovYvnkC8Kw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\materialize.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\css\\site.css",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "unzgww1j5f",
+      "Integrity": "dnc8P3OSlhOTXdaISYAiTCYe7sn3RjiL7ElPcX37kEY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\css\\style.css",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zfvd4ylkr6",
+      "Integrity": "kYMZZmugjRLxarNsq4RUa4sRULP0elbj2bRh1dqzkxQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\css\\var.css",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "css/var#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0sml0atp0q",
+      "Integrity": "cCEVXFZYMZrdSPXj8F/ZMt3RK5NtNYOvgqzz2AqHoFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\var.css"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\font\\kashimarusbycop.otf",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "font/kashimarusbycop#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1vf8dzhmsd",
+      "Integrity": "TStxrB4+z3I1KsMd02LKzfG0bKhg/zo6cZ/tt8BGGRs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\font\\kashimarusbycop.otf"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\Качество.mp4",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "img/Качество#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o3oc8frfza",
+      "Integrity": "/OaSIqZ0ve/wXYJws37fth2VqDUAn/9XoGSLaUUMROg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Качество.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\Надежность.mp4",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "img/Надежность#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eaaytm6tan",
+      "Integrity": "ll0HPvt7G/4EOguYVlrTqnSuewb8inyHz3VeJEI/AsM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Надежность.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\Скорость.mp4",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "img/Скорость#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u369hcr8c0",
+      "Integrity": "KphO0uBiTGIez1wsJ7I23XF8HM8nGyNkavyaR+rJNps=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Скорость.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\car_card.png",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "img/car_card#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fkhgxue3wr",
+      "Integrity": "71USG5ieXu8sgwHnwK/bz1WiklDgCwjIYaTD93nUE/s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\car_card.png"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\Car.mp4",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "img/Car#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cpq04a6hpm",
+      "Integrity": "MBMvmHvkXyknOMi3eQ/TgRGXzTmDAtMxa+3CMX99Kcc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Car.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\image.png",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "img/image#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dtsnh2y82g",
+      "Integrity": "oQr+W6fdzYBX/mvg+AYPhYpkYKHR6g9KiaagvPdDh8w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\image.png"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\shel.svg",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "img/shel#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rzvbhhsivp",
+      "Integrity": "SbS1XbVD2fuoQFkOl3UkhZk37unjVxvn6HMfcmVh51s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\shel.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\speed.svg",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "img/speed#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1k2d5htzjq",
+      "Integrity": "Mecgk3hOC0Up3N5fQnmvpogWQnL9/OMs8qZq5+Sd3Y0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\speed.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\telegram-icon.svg",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "img/telegram-icon#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k4dn5gwt32",
+      "Integrity": "zLiKB9qhIs+yMtg6OBqdr0mqGzp6ejMyqSAArvwLO+w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\telegram-icon.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\toyotaLogo.svg",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "img/toyotaLogo#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i4hjyhyby6",
+      "Integrity": "jvyuIS4vXjirNUYtj9C5cgQmTPTMqXEEEhycrWO7TE8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\toyotaLogo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\uprove.svg",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "img/uprove#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vbtyttdevz",
+      "Integrity": "BRZVTsGzi1rlZGNd4AZwQQr6KyGSKUe9xPI9w7L5Mwc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\uprove.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\vk-icon.svg",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "img/vk-icon#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nntyg756xf",
+      "Integrity": "oyZbLXTvGD0dH7YyP5AXDdysfDAtH8g/553jk0sUEMM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\vk-icon.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\js\\materialize.min.js",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "js/materialize.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1td9502r4n",
+      "Integrity": "20wqJ878mZjZMV9AAkCWdiR7Bw0GQkdfhUkr6V0fruk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\materialize.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\js\\site.js",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p3u8pny6rg",
+      "Integrity": "ZV+8Fw8TaLBmHFUUs1raNMaLrJkOg1j+bu+5E7E2Ogc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\main.html",
+      "SourceId": "AutoSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\",
+      "BasePath": "_content/AutoSalon",
+      "RelativePath": "main#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g8m4bjip9y",
+      "Integrity": "kMD7kbU9rUEEJZvGUk3bp8QVbtvTRp+MRBDlIKtrQDg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\main.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/materialize.min.css",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\css\\materialize.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K0Q4p66sdMVi7UQfY1uPDTIAw5axCRZj5ovYvnkC8Kw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:14:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K0Q4p66sdMVi7UQfY1uPDTIAw5axCRZj5ovYvnkC8Kw="
+        }
+      ]
+    },
+    {
+      "Route": "css/materialize.min.zelva7g88r.css",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\css\\materialize.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K0Q4p66sdMVi7UQfY1uPDTIAw5axCRZj5ovYvnkC8Kw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:14:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zelva7g88r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/materialize.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K0Q4p66sdMVi7UQfY1uPDTIAw5axCRZj5ovYvnkC8Kw="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1549"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dnc8P3OSlhOTXdaISYAiTCYe7sn3RjiL7ElPcX37kEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:14:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dnc8P3OSlhOTXdaISYAiTCYe7sn3RjiL7ElPcX37kEY="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.unzgww1j5f.css",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1549"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dnc8P3OSlhOTXdaISYAiTCYe7sn3RjiL7ElPcX37kEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:14:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "unzgww1j5f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dnc8P3OSlhOTXdaISYAiTCYe7sn3RjiL7ElPcX37kEY="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kYMZZmugjRLxarNsq4RUa4sRULP0elbj2bRh1dqzkxQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 14:42:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kYMZZmugjRLxarNsq4RUa4sRULP0elbj2bRh1dqzkxQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.zfvd4ylkr6.css",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kYMZZmugjRLxarNsq4RUa4sRULP0elbj2bRh1dqzkxQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 14:42:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zfvd4ylkr6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kYMZZmugjRLxarNsq4RUa4sRULP0elbj2bRh1dqzkxQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/var.0sml0atp0q.css",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\css\\var.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cCEVXFZYMZrdSPXj8F/ZMt3RK5NtNYOvgqzz2AqHoFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:14:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0sml0atp0q"
+        },
+        {
+          "Name": "label",
+          "Value": "css/var.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cCEVXFZYMZrdSPXj8F/ZMt3RK5NtNYOvgqzz2AqHoFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/var.css",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\css\\var.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cCEVXFZYMZrdSPXj8F/ZMt3RK5NtNYOvgqzz2AqHoFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:14:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cCEVXFZYMZrdSPXj8F/ZMt3RK5NtNYOvgqzz2AqHoFU="
+        }
+      ]
+    },
+    {
+      "Route": "font/kashimarusbycop.1vf8dzhmsd.otf",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\font\\kashimarusbycop.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "424400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TStxrB4+z3I1KsMd02LKzfG0bKhg/zo6cZ/tt8BGGRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:14:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1vf8dzhmsd"
+        },
+        {
+          "Name": "label",
+          "Value": "font/kashimarusbycop.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TStxrB4+z3I1KsMd02LKzfG0bKhg/zo6cZ/tt8BGGRs="
+        }
+      ]
+    },
+    {
+      "Route": "font/kashimarusbycop.otf",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\font\\kashimarusbycop.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "424400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TStxrB4+z3I1KsMd02LKzfG0bKhg/zo6cZ/tt8BGGRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:14:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TStxrB4+z3I1KsMd02LKzfG0bKhg/zo6cZ/tt8BGGRs="
+        }
+      ]
+    },
+    {
+      "Route": "img/Качество.mp4",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\Качество.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87804323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/OaSIqZ0ve/wXYJws37fth2VqDUAn/9XoGSLaUUMROg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 09:10:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/OaSIqZ0ve/wXYJws37fth2VqDUAn/9XoGSLaUUMROg="
+        }
+      ]
+    },
+    {
+      "Route": "img/Качество.o3oc8frfza.mp4",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\Качество.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87804323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/OaSIqZ0ve/wXYJws37fth2VqDUAn/9XoGSLaUUMROg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 09:10:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o3oc8frfza"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Качество.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/OaSIqZ0ve/wXYJws37fth2VqDUAn/9XoGSLaUUMROg="
+        }
+      ]
+    },
+    {
+      "Route": "img/Надежность.eaaytm6tan.mp4",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\Надежность.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "73860902"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ll0HPvt7G/4EOguYVlrTqnSuewb8inyHz3VeJEI/AsM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 09:10:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eaaytm6tan"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Надежность.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ll0HPvt7G/4EOguYVlrTqnSuewb8inyHz3VeJEI/AsM="
+        }
+      ]
+    },
+    {
+      "Route": "img/Надежность.mp4",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\Надежность.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "73860902"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ll0HPvt7G/4EOguYVlrTqnSuewb8inyHz3VeJEI/AsM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 09:10:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ll0HPvt7G/4EOguYVlrTqnSuewb8inyHz3VeJEI/AsM="
+        }
+      ]
+    },
+    {
+      "Route": "img/Скорость.mp4",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\Скорость.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124101154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KphO0uBiTGIez1wsJ7I23XF8HM8nGyNkavyaR+rJNps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 10:09:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KphO0uBiTGIez1wsJ7I23XF8HM8nGyNkavyaR+rJNps="
+        }
+      ]
+    },
+    {
+      "Route": "img/Скорость.u369hcr8c0.mp4",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\Скорость.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124101154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KphO0uBiTGIez1wsJ7I23XF8HM8nGyNkavyaR+rJNps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 10:09:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u369hcr8c0"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Скорость.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KphO0uBiTGIez1wsJ7I23XF8HM8nGyNkavyaR+rJNps="
+        }
+      ]
+    },
+    {
+      "Route": "img/car_card.fkhgxue3wr.png",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\car_card.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1256"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"71USG5ieXu8sgwHnwK/bz1WiklDgCwjIYaTD93nUE/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:13:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fkhgxue3wr"
+        },
+        {
+          "Name": "label",
+          "Value": "img/car_card.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-71USG5ieXu8sgwHnwK/bz1WiklDgCwjIYaTD93nUE/s="
+        }
+      ]
+    },
+    {
+      "Route": "img/car_card.png",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\car_card.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1256"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"71USG5ieXu8sgwHnwK/bz1WiklDgCwjIYaTD93nUE/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:13:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-71USG5ieXu8sgwHnwK/bz1WiklDgCwjIYaTD93nUE/s="
+        }
+      ]
+    },
+    {
+      "Route": "img/Car.cpq04a6hpm.mp4",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\Car.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57312215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MBMvmHvkXyknOMi3eQ/TgRGXzTmDAtMxa+3CMX99Kcc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 15:39:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cpq04a6hpm"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Car.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MBMvmHvkXyknOMi3eQ/TgRGXzTmDAtMxa+3CMX99Kcc="
+        }
+      ]
+    },
+    {
+      "Route": "img/Car.mp4",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\Car.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57312215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MBMvmHvkXyknOMi3eQ/TgRGXzTmDAtMxa+3CMX99Kcc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 15:39:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MBMvmHvkXyknOMi3eQ/TgRGXzTmDAtMxa+3CMX99Kcc="
+        }
+      ]
+    },
+    {
+      "Route": "img/image.dtsnh2y82g.png",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1630"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oQr+W6fdzYBX/mvg+AYPhYpkYKHR6g9KiaagvPdDh8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dtsnh2y82g"
+        },
+        {
+          "Name": "label",
+          "Value": "img/image.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oQr+W6fdzYBX/mvg+AYPhYpkYKHR6g9KiaagvPdDh8w="
+        }
+      ]
+    },
+    {
+      "Route": "img/image.png",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1630"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oQr+W6fdzYBX/mvg+AYPhYpkYKHR6g9KiaagvPdDh8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oQr+W6fdzYBX/mvg+AYPhYpkYKHR6g9KiaagvPdDh8w="
+        }
+      ]
+    },
+    {
+      "Route": "img/shel.rzvbhhsivp.svg",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\shel.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1471"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SbS1XbVD2fuoQFkOl3UkhZk37unjVxvn6HMfcmVh51s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rzvbhhsivp"
+        },
+        {
+          "Name": "label",
+          "Value": "img/shel.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SbS1XbVD2fuoQFkOl3UkhZk37unjVxvn6HMfcmVh51s="
+        }
+      ]
+    },
+    {
+      "Route": "img/shel.svg",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\shel.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1471"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SbS1XbVD2fuoQFkOl3UkhZk37unjVxvn6HMfcmVh51s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SbS1XbVD2fuoQFkOl3UkhZk37unjVxvn6HMfcmVh51s="
+        }
+      ]
+    },
+    {
+      "Route": "img/speed.1k2d5htzjq.svg",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\speed.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4469"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mecgk3hOC0Up3N5fQnmvpogWQnL9/OMs8qZq5+Sd3Y0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1k2d5htzjq"
+        },
+        {
+          "Name": "label",
+          "Value": "img/speed.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mecgk3hOC0Up3N5fQnmvpogWQnL9/OMs8qZq5+Sd3Y0="
+        }
+      ]
+    },
+    {
+      "Route": "img/speed.svg",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\speed.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4469"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mecgk3hOC0Up3N5fQnmvpogWQnL9/OMs8qZq5+Sd3Y0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mecgk3hOC0Up3N5fQnmvpogWQnL9/OMs8qZq5+Sd3Y0="
+        }
+      ]
+    },
+    {
+      "Route": "img/telegram-icon.k4dn5gwt32.svg",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\telegram-icon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zLiKB9qhIs+yMtg6OBqdr0mqGzp6ejMyqSAArvwLO+w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k4dn5gwt32"
+        },
+        {
+          "Name": "label",
+          "Value": "img/telegram-icon.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zLiKB9qhIs+yMtg6OBqdr0mqGzp6ejMyqSAArvwLO+w="
+        }
+      ]
+    },
+    {
+      "Route": "img/telegram-icon.svg",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\telegram-icon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zLiKB9qhIs+yMtg6OBqdr0mqGzp6ejMyqSAArvwLO+w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zLiKB9qhIs+yMtg6OBqdr0mqGzp6ejMyqSAArvwLO+w="
+        }
+      ]
+    },
+    {
+      "Route": "img/toyotaLogo.i4hjyhyby6.svg",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\toyotaLogo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jvyuIS4vXjirNUYtj9C5cgQmTPTMqXEEEhycrWO7TE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i4hjyhyby6"
+        },
+        {
+          "Name": "label",
+          "Value": "img/toyotaLogo.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jvyuIS4vXjirNUYtj9C5cgQmTPTMqXEEEhycrWO7TE8="
+        }
+      ]
+    },
+    {
+      "Route": "img/toyotaLogo.svg",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\toyotaLogo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jvyuIS4vXjirNUYtj9C5cgQmTPTMqXEEEhycrWO7TE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jvyuIS4vXjirNUYtj9C5cgQmTPTMqXEEEhycrWO7TE8="
+        }
+      ]
+    },
+    {
+      "Route": "img/uprove.svg",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\uprove.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3529"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BRZVTsGzi1rlZGNd4AZwQQr6KyGSKUe9xPI9w7L5Mwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BRZVTsGzi1rlZGNd4AZwQQr6KyGSKUe9xPI9w7L5Mwc="
+        }
+      ]
+    },
+    {
+      "Route": "img/uprove.vbtyttdevz.svg",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\uprove.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3529"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BRZVTsGzi1rlZGNd4AZwQQr6KyGSKUe9xPI9w7L5Mwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vbtyttdevz"
+        },
+        {
+          "Name": "label",
+          "Value": "img/uprove.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BRZVTsGzi1rlZGNd4AZwQQr6KyGSKUe9xPI9w7L5Mwc="
+        }
+      ]
+    },
+    {
+      "Route": "img/vk-icon.nntyg756xf.svg",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\vk-icon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oyZbLXTvGD0dH7YyP5AXDdysfDAtH8g/553jk0sUEMM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nntyg756xf"
+        },
+        {
+          "Name": "label",
+          "Value": "img/vk-icon.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oyZbLXTvGD0dH7YyP5AXDdysfDAtH8g/553jk0sUEMM="
+        }
+      ]
+    },
+    {
+      "Route": "img/vk-icon.svg",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\img\\vk-icon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oyZbLXTvGD0dH7YyP5AXDdysfDAtH8g/553jk0sUEMM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oyZbLXTvGD0dH7YyP5AXDdysfDAtH8g/553jk0sUEMM="
+        }
+      ]
+    },
+    {
+      "Route": "js/materialize.min.1td9502r4n.js",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\js\\materialize.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "181126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"20wqJ878mZjZMV9AAkCWdiR7Bw0GQkdfhUkr6V0fruk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1td9502r4n"
+        },
+        {
+          "Name": "label",
+          "Value": "js/materialize.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-20wqJ878mZjZMV9AAkCWdiR7Bw0GQkdfhUkr6V0fruk="
+        }
+      ]
+    },
+    {
+      "Route": "js/materialize.min.js",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\js\\materialize.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "181126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"20wqJ878mZjZMV9AAkCWdiR7Bw0GQkdfhUkr6V0fruk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 07:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-20wqJ878mZjZMV9AAkCWdiR7Bw0GQkdfhUkr6V0fruk="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38665"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZV+8Fw8TaLBmHFUUs1raNMaLrJkOg1j+bu+5E7E2Ogc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 15:27:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZV+8Fw8TaLBmHFUUs1raNMaLrJkOg1j+bu+5E7E2Ogc="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.p3u8pny6rg.js",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38665"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZV+8Fw8TaLBmHFUUs1raNMaLrJkOg1j+bu+5E7E2Ogc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 15:27:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p3u8pny6rg"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZV+8Fw8TaLBmHFUUs1raNMaLrJkOg1j+bu+5E7E2Ogc="
+        }
+      ]
+    },
+    {
+      "Route": "main.g8m4bjip9y.html",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\main.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27373"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kMD7kbU9rUEEJZvGUk3bp8QVbtvTRp+MRBDlIKtrQDg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 21:07:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g8m4bjip9y"
+        },
+        {
+          "Name": "label",
+          "Value": "main.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kMD7kbU9rUEEJZvGUk3bp8QVbtvTRp+MRBDlIKtrQDg="
+        }
+      ]
+    },
+    {
+      "Route": "main.html",
+      "AssetFile": "C:\\Users\\Smm\\Desktop\\AutoSalonWebApi\\AutoSalon\\AutoSalon\\wwwroot\\main.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27373"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kMD7kbU9rUEEJZvGUk3bp8QVbtvTRp+MRBDlIKtrQDg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 21:07:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kMD7kbU9rUEEJZvGUk3bp8QVbtvTRp+MRBDlIKtrQDg="
+        }
+      ]
+    }
+  ]
+}
