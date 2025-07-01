@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/var.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="ctor head_nav">
+            <div class="ctor head-links">
+                <div class="car_img">
+                    <a href="#main"><img src="img/image.png" alt="logo"></a>
+                    <h1>AutoSalonDrive</h1>
+                </div>
+                <div class="head_link">
+                    <a href="#main">Главная</a>
+                    <a href="#advantages">Преимущества</a>
+                    <a href="#sort_card">Каталог</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="first" id="main">
+        <video src="img/Car.mp4" autoplay loop muted playsinline></video>
+        <div class="video-text">
+            <h1>Информационная система<br> автосалона</h1>
+            <div class="video_text_p" id="advantages">
+                <p>Управление автомобилями, клиентами и продажами</p>
+            </div>
+        </div>
+    </main>
+    <main class="advantages">
+        <div class="advantage_title">
+            <h1>Наши преимущества</h1>
+        </div>
+        <div class="advantage_video">
+            <video id="v1" class="v1" src="img/Надежность.mp4" autoplay loop muted playsinline></video>
+            <video id="v2" class="v2" src="img/Качество.mp4" autoplay loop muted playsinline></video>
+            <video id="v3" class="v3" src="img/Скорость.mp4" autoplay loop muted playsinline></video>
+            <div class="description_video">
+                <p id="descAdvant1" class="descAdvant">Гарантируем безопасность сделки и юридическую чистоту всех автомобилей с полной проверкой перед доставкой.</p>
+                <p id="descAdvant2" class="descAdvant">Работаем только с официальными дилерами, обеспечивая безупречное состояние каждого автомобиля.</p>
+                <p id="descAdvant3" class="descAdvant">Доставляем авто из любой точки мира за 7-14 дней благодаря отлаженной логистической системе.</p>
+            </div>
+            <div class="advantage_text">
+                <div class="title_desc">
+                    <h1>Надежность</h1>
+                </div>
+
+                <div class="title_desc">
+                    <h1>Качество</h1>
+                </div>
+                <div class="title_desc">
+                    <h1>Скорость</h1>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main class="sort_card" id="sort_card">
+        <div class="add-update">
+            <div class="add-card-form compact-form">
+                <h3>Конфигурация своего автомобиля</h3>
+                <form id="addCarForm" class="compact-form-add" onsubmit="event.preventDefault();">
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Марка</label>
+                            <input type="text" id="markaCar" name="markaCar" required>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Модель</label>
+                            <input type="text" id="modelCar" name="modelCar" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Страна производитель</label>
+                            <input type="text" id="countyManufacturer" name="countyManufacturer" required>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Цена (₽)</label>
+                            <input type="number" id="price" name="price" min="0" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Тип кузова</label>
+                            <input type="text" id="typeBodywork" name="typeBodywork" required>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Количество дверей</label>
+                            <input type="number" id="numberDoor" name="numberDoor" min="1" max="20" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label for="numberPlace">Количество мест</label>
+                            <input type="number" id="numberPlace" name="numberPlace" min="1" max="20" required>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Тип двигателя</label>
+                            <br>
+                            <select name="typeEngine" id="typeEngine" required>
+                                <option value="">Выберите тип</option>
+                                <option value="0">Бензиновый</option>
+                                <option value="1">Дизельный</option>
+                                <option value="2">Электрический</option>
+                                <option value="3">Гибридный</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Расположение двигателя</label>
+                            <br>
+                            <select id="engineLocation" name="engineLocation" required>
+                                <option value="">Выберите расположение</option>
+                                <option value="0">Переднее</option>
+                                <option value="1">Заднее</option>
+                            </select>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Объем двигателя (л)</label>
+                            <input type="number" id="engineDisplacement" min="0" name="engineDisplacement" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group add compact">
+                        <label>Наличие</label>
+                        <br>
+                        <select name="availability" id="availability" required>
+                            <option value="">Выберите статус</option>
+                            <option value="0">В наличии</option>
+                            <option value="1">Отсутствует</option>
+                            <option value="2">Ожидается в течение месяца</option>
+                            <option value="3">Дата пока не известна</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="compact-button" onclick="addProduct()" onload="false">Добавить</button>
+                </form>
+            </div>
+            <div class="add-card-form compact-form">
+                <h3>Изменить автомобиль</h3>
+                <form id="carForm" class="compact-form-add" onsubmit="event.preventDefault();">
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Марка</label>
+                            <input type="text" id="updatemarkaCar" name="markaCar" required>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Модель</label>
+                            <input type="text" id="updatemodelCar" name="modelCar" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Страна производитель</label>
+                            <input type="text" id="updatecountyManufacturer" name="countyManufacturer" required>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Цена (₽)</label>
+                            <input type="number" id="updateprice" name="price" min="0" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Тип кузова</label>
+                            <input type="text" id="updatetypeBodywork" name="typeBodywork" required>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Количество дверей</label>
+                            <input type="number" id="updatenumberDoor" name="numberDoor" min="1" max="20" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Количество мест</label>
+                            <input type="number" id="updatenumberPlace" name="numberPlace" min="1" max="20" required>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Тип двигателя</label>
+                            <br>
+                            <select name="typeEngine" id="updatetypeEngine" required>
+                                <option value="">Выберите тип</option>
+                                <option value="0">Бензиновый</option>
+                                <option value="1">Дизельный</option>
+                                <option value="2">Электрический</option>
+                                <option value="3">Гибридный</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Расположение двигателя</label>
+                            <br>
+                            <select id="updateengineLocation" name="engineLocation" required>
+                                <option value="">Выберите расположение</option>
+                                <option value="0">Переднее</option>
+                                <option value="1">Заднее</option>
+                            </select>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Объем двигателя (л)</label>
+                            <input type="number" id="updateengineDisplacement" min="0" name="engineDisplacement" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group add compact">
+                        <label>Наличие</label>
+                        <br>
+                        <select name="availability" id="updateavailability" required>
+                            <option value="">Выберите статус</option>
+                            <option value="0">В наличии</option>
+                            <option value="1">Отсутствует</option>
+                            <option value="2">Ожидается в течение месяца</option>
+                            <option value="3">Дата пока не известна</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="compact-button" onclick="updateProduct()">Изменить</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="products">
+        </div>
+        
+        <div class="compact-form">
+            <h3>Поиск автомобиля</h3>
+            <div class="form-row">
+                <div class="form-group compact">
+                    <label for="searchMarka">Марка</label>
+                    <input type="text" id="searchMarka" placeholder="Введите марку">
+                </div>
+                <div class="form-group compact">
+                    <label for="searchModel">Модель</label>
+                    <input type="text" id="searchModel" placeholder="Введите модель">
+                </div>
+            </div>
+            <button class="compact-button" onclick="searchProduct()">Поиск</button>
+        </div>
+        
+        <div id="searchResults" class="car-list">
+            
+        </div>
+        
+        <div id="searchModelBlock" class="compact-form">
+            <h3>Поиск по модели</h3>
+            <div class="form-row">
+                <div class="form-group compact">
+                    <label for="searchModel">Модель</label>
+                    <input type="text" id="searchOnlyModel" placeholder="Введите модель автомобиля">
+                </div>
+            </div>
+            <button class="compact-button" onclick="searchByModel()">Найти</button>
+        </div>
+        
+        <div id="searchModelResults" class="car-list">
+            
+        </div>
+
+        <div id="SellModelBlock" class="compact-form">
+            <h3>Поиск по марки, проданных авто</h3>
+            <div class="form-row">
+                <div class="form-group compact">
+                    <label>Марки</label>
+                    <input type="text" id="SellOnlyModel" placeholder="Введите марку автомобиля">
+                </div>
+            </div>
+            <button class="compact-button" onclick="SellcarModel()">Найти</button>
+        </div>
+
+        <div id="SellModelResults" class="car-list">
+
+        </div>
+
+        <div class="compact-form">
+            <h3>Информация о клиентах</h3>
+            <div class="form-row">
+                <div class="form-group compact">
+                    <label>Полная информация о клиентах</label>
+                    <button class="compact-button" onclick="fullInfo()">Поиск</button>
+                </div>
+                <div class="form-group compact">
+                    <label>Частичная информация о клиентах</label>
+                    <button class="compact-button" onclick="lowInfo()">Поиск</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="compact">
+            <div id="FullInfo" class="car-list">
+    
+            </div>
+        </div>
+        
+        <div id="totalSalesSummary" class="sales-summary"></div>
+        <div id="salesStatistics" class="car-list">
+            
+        </div>
+
+
+
+        <div id="TypePaymentClien" class="compact-form">
+            <h3>Поиск по типу оплаты</h3>
+            <div class="form-row">
+                <div class="form-group compact">
+                    <label for="searchModel">Тип Оплаты</label>
+                    <select name="typePayment" id="typePayment">
+                        <option value="">Выберите тип оплаты</option>
+                        <option value="0">Переводом</option>
+                        <option value="1">Наличными</option>
+                        <option value="2">Кредитной картой</option>
+                        <option value="3">В офисе</option>
+                    </select>
+                </div>
+            </div>
+            <button class="compact-button" onclick="TypePaymentClient()">Найти</button>
+        </div>
+
+        <div id="TypePaymentClientList" class="car-list">
+
+        </div>
+
+
+        <div class="add-update">
+            <div class="add-card-form compact-form">
+                <h3>Добавить клиента</h3>
+                <form id="addClientForm" class="compact-form-add" onsubmit="event.preventDefault();">
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Имя</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Фамилия</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Отчество</label>
+                            <input type="text" id="middleName" name="middleName" required>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Номер телефона</label>
+                            <input type="text" id="number" name="number" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Паспорт (серия)</label>
+                            <input type="number" id="passportSeries" name="passportSeries" min="1000" max="9999" required>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Паспорт (номер)</label>
+                            <input type="number" id="passportNumber" name="passportNumber" min="100000" max="999999" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Адрес</label>
+                            <input type="text" id="homeAddress" name="homeAddress" required>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Доставка</label>
+                            <br>
+                            <select id="delivery" name="delivery" required>
+                                <option value="">Выберите вариант</option>
+                                <option value="true">Да</option>
+                                <option value="false">Нет</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Тип оплаты</label>
+                            <br>
+                            <select id="typePaymentClient" name="typePayment" required>
+                                <option value="">Выберите тип</option>
+                                <option value="0">Переводом</option>
+                                <option value="1">Наличными</option>
+                                <option value="2">Кредитной картой</option>
+                                <option value="3">В офисе</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group add compact">
+                            <label>Автомобиль</label>
+                            <br>
+                            <select id="idProduct" name="idProduct" required>
+                                <option value="1">Выберите автомобиль</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="compact-button" onclick="addClient()">Добавить клиента</button>
+                </form>
+            </div>
+
+            <div class="add-card-form compact-form">
+                <h3>Изменить клиента</h3>
+                <form id="updateClientForm" class="compact-form-add" onsubmit="event.preventDefault();">
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Имя</label>
+                            <input type="text" id="updatefirstName" name="firstName" required>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Фамилия</label>
+                            <input type="text" id="updatelastName" name="lastName" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Отчество</label>
+                            <input type="text" id="updatemiddleName" name="middleName" required>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Номер телефона</label>
+                            <input type="text" id="updatenumber" name="number" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Паспорт (серия)</label>
+                            <input type="number" id="updatepassportSeries" name="passportSeries" min="1000" max="9999" required>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Паспорт (номер)</label>
+                            <input type="number" id="updatepassportNumber" name="passportNumber" min="100000" max="999999" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Адрес</label>
+                            <input type="text" id="updatehomeAddress" name="homeAddress" required>
+                        </div>
+                        <div class="form-group add compact">
+                            <label>Доставка</label>
+                            <br>
+                            <select id="updatedelivery" name="delivery" required>
+                                <option value="true">Да</option>
+                                <option value="false">Нет</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group add compact">
+                            <label>Тип оплаты</label>
+                            <br>
+                            <select id="updatetypePayment" name="typePayment" required>
+                                <option value="0">Переводом</option>
+                                <option value="1">Наличными</option>
+                                <option value="2">Кредитной картой</option>
+                                <option value="3">В офисе</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group add compact">
+                            <label>Автомобиль</label>
+                            <br>
+                            <select id="updateidProduct" name="idProduct" required>
+                                <option value="">Выберите автомобиль</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="compact-button" onclick="updateClient()">Обновить клиента</button>
+                    
+                </form>
+            </div>
+        </div>
+        
+        
+        
+    </main>
+    <footer>
+        <div class="ctor footer">
+            <div class="footer-section" id="footer">
+                <h3>Контакты</h3>
+                <div class="footer-info">
+                    <p>📍 <strong>Адрес:</strong> г. Челябинск, ул. Автосалонная, д. 42</p>
+                    <p>📞 <strong>Телефон:</strong> +7 (999) 000-00-00</p>
+                    <p>📧 <strong>Email:</strong> info@japandrive.ru</p>
+                    <p>🕒 <strong>Режим работы:</strong> Пн-Пт: 9:00–19:00, Сб-Вс: 10:00–17:00</p>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Меню</h3>
+                <ul class="footer-links">
+                    <li><a href="#main">Главная</a></li>
+                    <li><a href="#advantages">Преимущества</a></li>
+                    <li><a href="#sort_card">Каталог</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Мы в соцсетях</h3>
+                <div class="social-links">
+                    <a href="#"><img src="img/vk-icon.svg" alt="ВКонтакте"></a>
+                    <a href="#"><img src="img/telegram-icon.svg" alt="Telegram"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/site.js"></script>
+    <script type="text/javascript">
+        getCars();
+        loadSalesByModel();
+        loadCarsForSelect("idProduct");
+        loadCarsForSelect("updateidProduct");
+    </script>
+</body>
+</html>
